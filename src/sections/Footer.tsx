@@ -27,7 +27,7 @@ function Footer() {
                     <a href="#">Blog</a>
                     <a href="#">Newsletter</a>
                     <a href="#">Events</a>
-                    <a href="#">Help Centre</a>
+                    <a href="#">Help centre</a>
                     <a href="#">Support</a>
                 </div>
             </div>

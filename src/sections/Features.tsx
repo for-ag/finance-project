@@ -7,7 +7,7 @@ function Features() {
   return (
     <section 
       id="features" 
-      className="flex max-w-7xl flex-col gap-10 px-8 pt-10 lg:px-12 xl:pt-20"
+      className="flex max-w-7xl flex-col gap-10 px-8 pt-10 lg:px-12 xl:pt-20 xl:m-auto"
       >
         <article className="m-auto w-[30ch] text-center text-gray-500 md:m-0 md:w-full">
             <h2 className="mb-4 text-4xl font-semibold text-gray-800">Make every penny count</h2>
