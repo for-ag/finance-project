@@ -1,3 +1,4 @@
+import Carousel from "../common/Carousel";
 import StoreLinks from "../common/StoreLinks";
 
 function Reviews() {
@@ -30,6 +31,7 @@ function Reviews() {
             <h2 className="mb-4 max-w-[18ch] text-center text-4xl font-semibold text-gray-800 lg:w-full lg:text-left">Join other thousands of people growing with Kobodrop</h2>
             <StoreLinks />
         </article>
+        <Carousel slides={slides} />
     </section>
   )
 }
