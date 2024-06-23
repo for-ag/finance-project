@@ -1,5 +1,5 @@
 import Carousel from "../common/Carousel";
-import StoreLinks from "../common/StoreLinks";
+import StoreLinks, { BtnTypes } from "../common/StoreLinks";
 
 function Reviews() {
   const slides = [
@@ -29,7 +29,7 @@ function Reviews() {
     <section id="reviews" className="flex max-w-7xl flex-col items-center justify-between px-8 py-20 lg:m-auto lg:flex-row lg:px-12">
         <article className="mb-10 flex flex-col items-center justify-center lg:w-1/2 lg:items-start">
             <h2 className="mb-4 max-w-[18ch] text-center text-4xl font-semibold text-gray-800 lg:w-full lg:text-left">Join other thousands of people growing with Kobodrop</h2>
-            <StoreLinks />
+            <StoreLinks type={BtnTypes.Standard}/>
         </article>
         <Carousel slides={slides} />
     </section>

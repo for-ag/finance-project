@@ -1,4 +1,4 @@
-import StoreLinks from "../common/StoreLinks"
+import StoreLinks, { BtnTypes } from "../common/StoreLinks"
 import Phone from "../assets/mockup.svg"
 import HeroImage from "../assets/hero.png"
 
@@ -9,7 +9,7 @@ function Hero() {
             <h1 className="mx-auto mb-8 w-[14ch] text-center text-4xl font-semibold text-gray-800 sm:text-5xl md:mx-0 md:text-left">Start spending the smart way</h1>
             <p className="m-auto w-[34ch] text-center text-gray-500 md:m-0 md:text-left">Take Control of Your Finances Anytime, Anywhere with Kobodrop. Discover the Smart Way to Use Your Money!
             </p>
-            <StoreLinks />
+            <StoreLinks type={BtnTypes.Standard}/>
         </div>
         <div className="md:w-3/6 xl:mb-12 xl:overflow-hidden">
           <img className="right-0 m-auto w-72 xl:absolute xl:left-6 xl:right-0 xl:mt-32 xl:w-80" src={Phone} alt="Konodrop app frame" />

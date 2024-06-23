@@ -1,7 +1,7 @@
 import { useState } from "react";
-import ArrowBack from "../assets/icons/arrow_back.svg"
-import ArrowForward from "../assets/icons/arrow_forward.svg"
-import Star from "../assets/icons/star.svg"
+import ArrowBack from "../assets/icons/arrow_back.svg";
+import ArrowForward from "../assets/icons/arrow_forward.svg";
+import Star from "../assets/icons/star.svg";
 
 interface CarouselProps {
     slides: Slide[]
